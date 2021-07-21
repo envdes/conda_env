@@ -1,10 +1,12 @@
-# Conda Environments for Environmental Data Science
+# FLAML
 
 Author: Dr. Zhonghua Zheng ([zhonghua.zheng@outlook.com](mailto:zhonghua.zheng@outlook.com))
 
+Last Updated July 21, 2021
+
 ## Introduction
 
-This repo contains the files for setting up conda environments. The basic conda environment is `environment.yml`. It consists of:
+This repo contains the files for conda environments. The basic conda environment is `environment.yml`. It consists of:
 
 - Python=3.8.0
 - Jupyter
@@ -14,8 +16,9 @@ This repo contains the files for setting up conda environments. The basic conda 
   - xarray (with netCDF support)
   - scipy
 - machine learning
+  - [FLAML](https://github.com/microsoft/FLAML)
   - scikit-learn
-- mapping & plotting:
+- mapping & plotting
   - matplotlib
 
 ## Usage

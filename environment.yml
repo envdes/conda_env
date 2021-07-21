@@ -1,0 +1,17 @@
+channels:
+- conda-forge
+- defaults
+
+dependencies:
+- python=3.8.0
+- numpy
+- pandas
+- scipy
+- scikit-learn
+- xarray
+- jupyter
+- matplotlib
+- pip
+- pip:
+  - netCDF4==1.5.7
+name: envdes
