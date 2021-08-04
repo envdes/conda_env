@@ -11,6 +11,9 @@ dependencies:
 - xarray
 - jupyter
 - matplotlib
+- py-xgboost
+- lightgbm
+- shap
 - pip
 - pip:
   - flaml[notebook]
